@@ -25,7 +25,7 @@ try:
     import glitch_me
 except ModuleNotFoundError:
     os.system(
-        "git clone https://github.com/1Danish-00/glitch_me.git && pip install -e ./glitch_me"
+        "git clone https://github.com/AftahBagas/glitch_me.git && pip install -e ./glitch_me"
     )
 
 

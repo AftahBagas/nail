@@ -38,7 +38,7 @@ async def ult(ult):
                     for d in LIST[plug]:
                         x += HNDLR + d
                         x += "\n"
-                    x += "\n© @TeamUltroid"
+                    x += "\n© @TeamSquadUserbotSupport"
                     await eor(ult, x)
                 except BaseException:
                     await eod(ult, get_string("help_1").format(plug), time=5)
@@ -68,11 +68,11 @@ async def ult(ult):
                         Button.inline("• Aᴅᴅᴏɴs", data="frrr"),
                     ],
                     [
-                        Button.inline("Oᴡɴᴇʀ•ᴛᴏᴏʟꜱ", data="ownr"),
+                        Button.inline("Pᴇᴍɪʟɪᴋ•ᴛᴏᴏʟꜱ", data="ownr"),
                         Button.inline("Iɴʟɪɴᴇ•Pʟᴜɢɪɴs", data="inlone"),
                     ],
-                    [Button.url("⚙️Sᴇᴛᴛɪɴɢs⚙️", url=f"https://t.me/{bnn}?start=set")],
-                    [Button.inline("••Cʟᴏꜱᴇ••", data="close")],
+                    [Button.url("⚙️Pᴇɴɢᴀᴛᴜʀᴀɴ⚙️", url=f"https://t.me/{bnn}?start=set")],
+                    [Button.inline("••Tᴜᴛᴜᴘ••", data="close")],
                 ],
             )
         except rep:
